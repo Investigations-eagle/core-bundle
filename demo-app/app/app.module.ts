@@ -3,7 +3,7 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
-import { TickTockModule } from './lib/src/index';
+import { TickTockModule } from 'core-bundle/index';
 
 @NgModule({
   declarations: [

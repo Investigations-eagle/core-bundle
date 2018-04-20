@@ -23,4 +23,12 @@ demo-app/
 tmp
 
 # Library files
-src/
+lib-src/
+
+.angular-cli.json
+
+protractor.conf.js
+
+scripts
+
+e2e

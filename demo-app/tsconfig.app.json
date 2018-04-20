@@ -4,10 +4,15 @@
     "outDir": "../out-tsc/app",
     "baseUrl": "./",
     "module": "es2015",
-    "types": []
+    "types": [],
+    "paths": {
+      "core-bundle/*": ["../lib-src/*"]
+    }
   },
   "exclude": [
     "test.ts",
     "**/*.spec.ts"
-  ]
+  ],
+  "include": ["**/*.ts"],
+  "files": ["./main.ts", "../lib-src/index.ts"]
 }
