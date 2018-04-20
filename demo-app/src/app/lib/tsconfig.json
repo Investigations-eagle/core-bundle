@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "es2015",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "declaration": true,
+    "noImplicitAny": false,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "outDir": "dist",
+    "rootDir": "./"
+  },
+  "files": [
+    "./index.ts"
+  ],
+  "typeRoots" : [
+    "../../../node_modules/@types"
+  ],
+  "lib": [
+    "es2015",
+    "dom"
+  ],
+  "exclude": [
+    "**/*.spec.ts",
+    "../../../node_modules/@angular/tsc-wrapped/test/*"
+  ],
+  "angularCompilerOptions": {
+    "genDir": "dist"
+  }
+}
