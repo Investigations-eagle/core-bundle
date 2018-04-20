@@ -1,7 +1,7 @@
 {
   "$schema": "./node_modules/ng-packagr/package.schema.json",
   "name": "core-bundle",
-  "version": "16.0.00",
+  "version": "17.0.00",
   "description": "",
   "dependencies": {
     "tslib": "^1.7.1"
