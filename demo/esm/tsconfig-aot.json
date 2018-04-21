@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "es2015",
+    "moduleResolution": "node",
+    "noEmit": true,
+    "declaration": false,
+    "sourceMap": true,
+    "inlineSources": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "noImplicitAny": true,
+    "skipLibCheck": true,
+    "baseUrl": "./",
+    "lib": [
+      "es2015",
+      "dom"
+    ],
+    "paths": { "@angular/*": ["../node_modules/@angular/*"] }
+  },
+  "include": [
+    "src/**/*.ts"
+  ]
+}

@@ -5,17 +5,14 @@
     "moduleResolution": "node",
     "noEmit": true,
     "sourceMap": true,
-    "declaration": true,
+    "declaration": false,
+    "noImplicitAny": false,
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
-    "baseUrl": "./",
     "lib": [
       "es2015",
       "dom"
     ],
-    "paths": {
-      "@angular/*": ["../node_modules/@angular/*"]
-    },
     "typeRoots" : [
       "./node_modules/@types"
     ],
@@ -28,8 +25,7 @@
     ]
   },
   "include": [
-    "src/**/*.ts",
-    "../node_modules/@angular/*"
+    "src/**/*.ts"
   ],
   "exclude": [
     "src/**/*.spec.ts",
@@ -38,4 +34,3 @@
     "dist"
   ]
 }
-

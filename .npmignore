@@ -20,11 +20,11 @@ Desktop.ini
 .DS_Store
 
 # Temporary files
-demo-app/
+demo/
 tmp
 
 # Library files
-lib-src/
+src/
 
 .angular-cli.json
 
