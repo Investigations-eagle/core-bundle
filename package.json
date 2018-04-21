@@ -1,14 +1,15 @@
 {
   "$schema": "./node_modules/ng-packagr/package.schema.json",
   "name": "core-bundle",
-  "version": "20.0.00",
+  "version": "30.0.00",
   "description": "",
   "scripts": {
-    "start": "ng serve",
+    "start": "ng serve --port=4201",
     "clean": "rimraf dist",
     "copy-dirs": "node scripts/copy-dirs.js",
     "packagr": "ng-packagr -p ./package.json",
-    "ci": "npm run clean && npm run packagr && npm run copy-dirs"
+    "ci": "npm run clean && npm run packagr",
+    "publish-custom": "npm run ci && cd dist && npm publish"
   },
   "ngPackage": {
     "lib": {
