@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 
-import { TickTockModule, EgleNg } from '../../lib';
+import { TickTockModule, Core } from '../../lib';
 
 @NgModule({
   imports: [ BrowserModule, TickTockModule ],
@@ -11,6 +11,6 @@ import { TickTockModule, EgleNg } from '../../lib';
 })
 export class AppModule {
   constructor() {
-    console.log('EgleNg', new EgleNg());
+    console.log('Core', Core);
   }
 }

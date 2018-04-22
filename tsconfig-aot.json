@@ -21,7 +21,7 @@
       "@angular/*": ["../node_modules/@angular/*"]
     }
   },
-  "includes": ["../node_modules/@angular/*"],
+  "include": ["../node_modules/@angular/*"],
   "files": [
     "./tmp/src-inlined/index.ts"
   ],
