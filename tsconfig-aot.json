@@ -15,13 +15,8 @@
     "stripInternal": true,
     "skipLibCheck": true,
     "outDir": "dist",
-    "baseUrl": "./",
-    "rootDir": "./tmp/src-inlined",
-    "paths": {
-      "@angular/*": ["../node_modules/@angular/*"]
-    }
+    "rootDir": "./tmp/src-inlined"
   },
-  "include": ["../node_modules/@angular/*"],
   "files": [
     "./tmp/src-inlined/index.ts"
   ],

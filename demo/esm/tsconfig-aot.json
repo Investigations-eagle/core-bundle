@@ -11,12 +11,10 @@
     "experimentalDecorators": true,
     "noImplicitAny": true,
     "skipLibCheck": true,
-    "baseUrl": "./",
     "lib": [
       "es2015",
       "dom"
-    ],
-    "paths": { "@angular/*": ["../node_modules/@angular/*"] }
+    ]
   },
   "include": [
     "src/**/*.ts"

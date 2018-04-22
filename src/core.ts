@@ -1,3 +1,4 @@
+/*
 import * as Router from '@angular/router';
 import * as Core from '@angular/core';
 import * as Http from '@angular/http';
@@ -15,3 +16,7 @@ export {
   PlatformBrowser,
   PlatformBrowserDynamic
 };
+*/
+
+const s = 5;
+export {s};
