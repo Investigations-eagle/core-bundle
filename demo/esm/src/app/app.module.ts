@@ -1,8 +1,10 @@
+import { TickTockModule } from '../../lib';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 
-import { TickTockModule, Core } from '../../lib';
+// const NgModule = Core.NgModule;
+// const BrowserModule = PlatformBrowser.BrowserModule;
 
 @NgModule({
   imports: [ BrowserModule, TickTockModule ],
@@ -11,6 +13,6 @@ import { TickTockModule, Core } from '../../lib';
 })
 export class AppModule {
   constructor() {
-    console.log('Core', Core);
+    console.log('Core');
   }
 }

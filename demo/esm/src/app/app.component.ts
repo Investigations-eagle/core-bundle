@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+// import { Core } from '../../lib';
+// const Component = Core.Component;
 
 @Component({
   selector: 'my-app',
